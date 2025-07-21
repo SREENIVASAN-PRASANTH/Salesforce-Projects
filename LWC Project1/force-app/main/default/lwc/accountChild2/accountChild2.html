@@ -1,0 +1,14 @@
+<template>
+
+    <div style="height:375px;">
+        <lightning-datatable
+            key-field = ""
+            data = {accountRecords.data}
+            columns = {columns}
+            hide-checkbox-column = "true"
+            show-row-number-column = "true"
+            onrowaction = {handleRowAction}>
+        </lightning-datatable>
+    </div>
+
+</template>

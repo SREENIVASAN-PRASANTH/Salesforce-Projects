@@ -1,0 +1,11 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<LightningMessageChannel xmlns = "http://soap.sforce.com/2006/04/metadata">
+    <isExposed>true</isExposed>
+    <masterLabel>PracticeMessageChannel</masterLabel>
+    <description>This messsage channel is used for knowing more about the concept</description>
+
+    <lightningMessageFields>
+        <fieldName>registerNumber</fieldName>
+        <description>This is College Register number</description>
+    </lightningMessageFields>
+</LightningMessageChannel>
